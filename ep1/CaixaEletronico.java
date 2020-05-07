@@ -42,7 +42,7 @@ public class CaixaEletronico {
 	static void fazRetirada(int valor) {
 		
 		//Testa se o valor é válido, isto é, se é maior que 0
-		if (valor > 0) {
+		if (valor >= 0) {
 			
 			/*
 			Divide o valor de retirada pelo valor da cédula para saber quantas cédulas serão necessárias,
